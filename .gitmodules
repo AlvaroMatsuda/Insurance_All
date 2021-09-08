@@ -1,0 +1,3 @@
+[submodule "health_insurance_heroku_app"]
+	path = health_insurance_heroku_app
+	url = https://health-insurance-predict-score.herokuapp.com
