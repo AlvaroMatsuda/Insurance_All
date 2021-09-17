@@ -76,24 +76,19 @@ The performance curves show that the model can reach all of those interested in 
 
 # 6. Business Results
 
-**6.1. Baseline - Random Calls**
-- Selecting 20.000 random clients to call, the marketing team would reach 20.42% of interested clients
-   - The expected profit with it is: BRL 73,435,558.00
-- Selecting 40.000 random clients to call, the marketing team would reach 41.52% of interested clients
-   - The expected profit with it is: BRL 149,372,947.00
+The table below shows us that calling for 20.000 random leads the company would reach around 20.42% customers that have interest in car insurance, on the other hand, with the model, calling for the top 20.000 leads with the highest propensity score, the company would reach 58.52% customers that have interest in car insurance (increase of 37.83%).
 
-Scenarios | Baseline | Model | Difference
+Scenarios | Baseline | Model | Improvement
 --- | --- | --- | ---
 20.000 Calls | 20.42% | 58.52%  | 37.83% 
 40.000 Calls | 41.52% | 93.71% | 52.19%
 
+This next table below shows us the expected profit made by the company choosing random clientes to call and using the model to call for the top 20.000 and 40.000 leads, and the 
 
-Scenarios | Baseline | Model | Difference
+Scenarios | Baseline | Model | Improvement
 --- | --- | --- | ---
 20.000 Calls | BRL 73,435,558 | BRL 214,172,594 | BRL 140,737,036
 40.000 Calls | BRL 149,372,967 | BRL 342,173,839 | BRL 192,800,872
-
-
 
 # 7. Closing Thoughts
 
