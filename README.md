@@ -83,7 +83,7 @@ Scenarios | Baseline | Model | Improvement
 20.000 Calls | 20.42% | 58.52%  | 37.83% 
 40.000 Calls | 41.52% | 93.71% | 52.19%
 
-This next table below shows us the expected profit made by the company choosing random clientes to call and using the model to call for the top 20.000 and 40.000 leads, and the 
+This next table below shows us the expected profit made by the company choosing random clientes to call and using the model to call for the top 20.000 and 40.000 leads.
 
 Scenarios | Baseline | Model | Improvement
 --- | --- | --- | ---
