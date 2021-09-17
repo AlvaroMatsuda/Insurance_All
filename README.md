@@ -2,6 +2,8 @@
 
 Car Insurance Cross-Sell
 
+![image](https://user-images.githubusercontent.com/72954917/133703422-1bc27912-6d98-4115-b1dc-87b9b5630463.png)-
+
 # 1. Business Problem
 
 **Company Name:** Insurance All
@@ -24,7 +26,27 @@ For the purpose of this project, I am going to assume the following:
 
 # 3. Solution Strategy
 My solution to solve the problem was:
-- 1. Data Description: 
+**Step 01. Data Description:** Use basic statistics metrics to identify data outside the scope of business.
+
+**Step 02. Check Outliers:** Check if there are outliers on the dataset based on the assumptions cited previously.
+
+**Step 03. Feature Engineering:** Derive new features from the original dataset that could help to predict the likelihood of interest in car insurance.
+
+**Step 04. Exploratory Data Analysis:** Explore the data to find insights and better understand the impact of variables on model learning.
+
+**Step 05. Data Preparation:** Prepare the data to be used on the model. (Exe: Scaling, encoding)
+
+**Step 06. Feature Selection:** Select features that are most significant that better explain the phenomenon.
+
+**Step 07. Machine Learning:** Train and test models and analysis of the models performance.
+
+**Step 08. Cross Validation Scoring:** Compare the performance of the models through cross validation and selection of the best model.
+
+**Step 09. Hyperparameter Fine Tuning:** Choose the best parameters of the model that maximize performance.
+
+**Step 10. Translation and Interpretation of the Error:** Convert the performance of the machine learning model into business results.
+
+**Step 11. Deploy Model to Production:** Publish the model in a cloud environment so that other people or services can use the results to improve the business decision.
 
 # 4. Top 3 Insights
 
