@@ -76,6 +76,25 @@ The performance curves show that the model can reach all of those interested in 
 
 # 6. Business Results
 
+**6.1. Baseline - Random Calls**
+- Selecting 20.000 random clients to call, the marketing team would reach 20.42% of interested clients
+   - The expected profit with it is: BRL 73,435,558.00
+- Selecting 40.000 random clients to call, the marketing team would reach 41.52% of interested clients
+   - The expected profit with it is: BRL 149,372,947.00
+
+Scenarios | Baseline | Model | Difference
+--- | --- | --- | ---
+20.000 Calls | 20.42% | 58.52%  | 37.83% 
+40.000 Calls | 41.52% | 93.71% | 52.19%
+
+
+Scenarios | Baseline | Model | Difference
+--- | --- | --- | ---
+20.000 Calls | BRL 73,435,558 | BRL 214,172,594 | BRL 140,737,036
+40.000 Calls | BRL 149,372,967 | BRL 342,173,839 | BRL 192,800,872
+
+
+
 # 7. Closing Thoughts
 
 # 8. Lessons Learned
