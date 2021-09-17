@@ -76,7 +76,7 @@ The performance curves show that the model can reach all of those interested in 
 
 # 6. Business Results
 
-The table below shows us that calling for 20.000 random leads the company would reach around 20.42% customers that have interest in car insurance, on the other hand, with the model, calling for the top 20.000 leads with the highest propensity score, the company would reach 58.52% customers that have interest in car insurance (increase of 37.83%).
+The table below shows us that calling for 20.000 random leads the company would reach around 20.42% customers that have interest in car insurance, on the other hand, with the model, calling the top 20.000 leads with the highest propensity score, the company would reach 58.52% customers that have interest in car insurance (increase of 37.83%).
 
 Scenarios | Baseline | Model | Improvement
 --- | --- | --- | ---
