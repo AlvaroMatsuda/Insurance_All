@@ -26,6 +26,7 @@ For the purpose of this project, I am going to assume the following:
 
 # 3. Solution Strategy
 My solution to solve the problem was:
+
 **Step 01. Data Description:** Use basic statistics metrics to identify data outside the scope of business.
 
 **Step 02. Check Outliers:** Check if there are outliers on the dataset based on the assumptions cited previously.
@@ -51,6 +52,27 @@ My solution to solve the problem was:
 # 4. Top 3 Insights
 
 # 5. Machine Learning Model Performance
+The following machine learning models were trained:
+
+- K Neighbors Classifier - KNN
+- Logistic Regression
+- Random Forest Classifier
+- Adaboost
+- Bagging Classifier
+
+The performance of the models were measured through Cross Validation.
+
+The metric that were employed to measure the performance of the models were **recall at k (recall@k)**, where k is the top k leads with the higher propensity score given by the model.
+
+The following results were calculated with k=5,000
+
+![image](https://user-images.githubusercontent.com/72954917/133708205-8cc3b4d5-f890-43ef-adb7-fdd9867396ad.png)
+
+With these performances I chose Adaboost model, given that it presented the best recall_at_5000
+
+![image](https://user-images.githubusercontent.com/72954917/133708717-d6b459b1-a15c-4026-9e9a-5232c5272ef5.png)
+
+The performance curves show that the model can reach all of those interested in purchasing the product using approximately 50% of the sample (Cumulative Gains Curve). Furthermore, we can also see that the model is almost three times better with the first 20% of the sample in reaching interested customers than a random choosing technique. After reaching half of the data, it remains twice as good as the alternative way of classification.
 
 # 6. Business Results
 
