@@ -57,7 +57,7 @@ My solution to solve the problem was:
 # 5. Top 3 Insights
 
 # 6. Machine Learning Model Performance
-The following machine learning models were trained:
+I used the following machine learning models:
 
 - K Neighbors Classifier - KNN
 - Logistic Regression
