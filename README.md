@@ -66,14 +66,17 @@ For the purpose of this project, I am going to assume the following:
 
 - **Hypothesis 01.** Customers that have newer car (cars with less than 1 year) are more likely to have interest in car insurance
 - **FALSE:** Customers that have older car (>2 Years older) are more likely to be interested in car insurance
+
 ![image](https://user-images.githubusercontent.com/72954917/134426531-a06b8aee-69d2-4f2c-80cc-8b52cf754a9f.png)
 
 - **Hypothesis 02.** Older customers (age >= 36 years old) have more interest in car insurance.
 - **TRUE:** Older clients have more interest in car insurance
+
 ![image](https://user-images.githubusercontent.com/72954917/134426929-871e847f-b866-48ea-b644-db6fc34aef3f.png)
 
 - **Hypothesis 03.** Customers that had their car previously damaged have more interest in car insurance.
 - **TRUE:** Customers that had their car previously damaged have more interest in car insurance.
+
 ![image](https://user-images.githubusercontent.com/72954917/134427238-30f36017-4a3e-48bc-8c5a-b0178b8420c3.png)
 
 # 6. Machine Learning Model Performance
