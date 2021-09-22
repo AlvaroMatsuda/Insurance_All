@@ -22,7 +22,9 @@ The product team selected 127 thousand leads to participate in a marketing campa
 **Problem:** The problem is that the sales team has capacity of making only 20 thousand calls on the period the campaing will be running.
     
 # 2. The Solution  
- 
+
+###Show google sheets working###
+
  
 # 3. Business Assumptions
 For the purpose of this project, I am going to assume the following:
@@ -30,7 +32,13 @@ For the purpose of this project, I am going to assume the following:
 - Profit per convertion: BRL 31,699.00 (which is the median of annual premium charged of those 380 thousand customers)
 
 # 4. Solution Strategy
-My solution to solve the problem was:
+
+- Given that we have a fixed number of calls to make, we want to maximize the convertion rate through those 20,000 calls.
+- To do so, I am going to build a classification model with the 380 thousand researched customer that give us a propensity score (the likelihood/probability of getting car insurance).
+- Then I am going to use the model on the 127 thousand leads to score them accordingly to their likelihood, and sort them by the propensity score by the most to least.
+- With the sorted list the sales team should call to the top 20,000 customers with the highest score, maximizing the convertion rate.
+
+- The steps to reach this goal was:  
 
 **Step 01. Data Description:** Use basic statistics metrics to identify data outside the scope of business.
 
