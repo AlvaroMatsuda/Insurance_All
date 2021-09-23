@@ -1,7 +1,5 @@
 # Insurance All
 
-Ongoing project (13/09/2021)
-
 Car Insurance Cross-Sell
 
 ![image](https://user-images.githubusercontent.com/72954917/133703422-1bc27912-6d98-4115-b1dc-87b9b5630463.png)-
