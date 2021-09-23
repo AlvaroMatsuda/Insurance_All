@@ -22,9 +22,9 @@ The product team selected 127 thousand leads to participate in a marketing campa
 **Problem:** The problem is that the sales team has capacity of making only 20 thousand calls on the period the campaing will be running.
     
 # 2. The Solution  
+The solution delivered is a custom function in the google sheets where it access the model in production and it returns the propensity score, given that the spreadsheet have all of the customers/leads informations. With this function the sales team can have the propensity score and then they can sort the list of leads by the score and call to the ones with the highest scores.
 
-###Show google sheets working###
-
+![image](https://user-images.githubusercontent.com/72954917/134449104-f26f788b-5fd2-413f-995c-24c35440a6ae.png)
  
 # 3. Business Assumptions
 For the purpose of this project, I am going to assume the following:
@@ -104,7 +104,7 @@ The performance curves show that the model can reach all of those interested in 
 
 # 7. Business Results
 
-The table below shows us that calling for 20.000 random leads the company would reach around 20.42% customers that have interest in car insurance, on the other hand, with the model, calling the top 20.000 leads with the highest propensity score, the company would reach 58.52% customers that have interest in car insurance (increase of 37.83%).
+The table below shows us that calling 20.000 random leads, the company would reach around 20.42% customers that have interest in car insurance, on the other hand, with the model, calling the top 20.000 leads with the highest propensity score, the company would reach 58.52% customers that have interest in car insurance (increase of 37.83%).
 
 Scenarios | Baseline | Model | Improvement
 --- | --- | --- | ---
@@ -118,11 +118,25 @@ Scenarios | Baseline | Model | Improvement
 20.000 Calls | BRL 73,435,558 | BRL 214,172,594 | BRL 140,737,036
 40.000 Calls | BRL 149,372,967 | BRL 342,173,839 | BRL 192,800,872
 
+And to reach 80% of interested customers, the sales team would have to call the top 30,097 lead with the highest propencity score.
+
 # 8. Closing Thoughts
+With the proposed solution the company would reach around 58.52% of all interested customers in getting car insurance, and it would increase their profit by BRL 140,737,036, compared to a random calling method.
+
+And if the company could make 40,000 calls, the sales team would reach around 93.71% of all interested customers, increasing their profit by BRL 192,800,872, compared to random calling method.
+
+And to reach 80% of all interested customers, the sales team would have to make 30,097 calls.
+
+Just to recall, these numbers of profit is based on the assumptions made in the beginning of this project.
+
+In conclusion, applying data science/machine learning would have a big impact on this company, improving by a big margin their profit.
 
 # 9. Lessons Learned
+One of the main lessons learned with this project was to envision how the company/user will use the solution. Defining how they will use, we can have a better understanding of the needs and to build the proper solution. Because, although this project is kind of a classification problem, the user, in this case the sales team, is more interested in the propencity score (the likelihood/probability). Imagine that instead of the propensity score, we delivered the classification (don't have interest/have interest in car insurance). Among all of those customers classified as having interest in car insurance, there are some that have more interest than others. And with the error of the model that is inherited, there will be customers classified incorrectly. To minimize this error, we should call to those customers with the highest probability.
+
+Another thing that I learned with this project was to measure the performance of the models by cumulative gain and lift curve charts, and by the **Top_at_@ metrics**, which are employed especificaly when we want to sort somethin by the probability.  
 
 # 10. Next Steps to Improve
-
+For the next steps to improve this project, I can create/search new features and test more models.
 
 
