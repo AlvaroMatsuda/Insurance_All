@@ -132,7 +132,7 @@ In conclusion, applying data science/machine learning would have a big impact on
 # 9. Lessons Learned
 One of the main lessons learned with this project was to envision how the company/user will use the solution. Defining how they will use, we can have a better understanding of the needs and to build the proper solution. Because, although this project is kind of a classification problem, the user, in this case the sales team, is more interested in the propencity score (the likelihood/probability). Imagine that instead of the propensity score, we delivered the classification (don't have interest/have interest in car insurance). Among all of those customers classified as having interest in car insurance, there are some that have more interest than others. And with the error of the model that is inherited, there will be customers classified incorrectly. To minimize this error, we should call to those customers with the highest probability.
 
-Another thing that I learned with this project was to measure the performance of the models by cumulative gain and lift curve charts, and by the **Top_at_@ metrics**, which are employed especificaly when we want to sort somethin by the probability.  
+Another thing that I learned with this project was to measure the performance of the models by cumulative gain and lift curve charts, and by the **Top_at_@ metrics**, which are employed especificaly when we want to sort something by the probability.  
 
 # 10. Next Steps to Improve
 For the next steps to improve this project, I can create/search new features and test more models.
